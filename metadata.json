@@ -1,0 +1,5 @@
+{
+  "name": "Remix: AI QuickEdit",
+  "description": "An AI-powered photo editor that allows for one-tap edits, custom text-prompt modifications, and AI image generation. It supports multiple photo uploads, instant downloads, and fast processing using Gemini.",
+  "requestFramePermissions": []
+}

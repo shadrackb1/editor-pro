@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #000000;
+  --ink: #FFFFFF;
+  --line: #333333;
+  --f-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--f-sans);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Professional Black and White Theme */
+.btn-primary {
+  @apply bg-white text-black font-semibold py-2 px-4 rounded-md transition-all duration-200 hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply bg-transparent border border-white text-white font-semibold py-2 px-4 rounded-md transition-all duration-200 hover:bg-white hover:text-black disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.input-field {
+  @apply bg-black border border-gray-700 text-white placeholder-gray-500 text-sm rounded-md focus:ring-white focus:border-white p-2.5 outline-none;
+}
+
+.card {
+  @apply bg-black border border-gray-800 rounded-lg overflow-hidden transition-all duration-200 hover:border-gray-600;
+}
+
+/* Loading animations */
+@keyframes pulse-white {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-pulse-white {
+  animation: pulse-white 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
