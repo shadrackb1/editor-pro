@@ -1,10 +1,8 @@
-﻿# editor pro
+# Editor Pro
 
-AI QuickEdit â€“ Professional Magic
+<img src="./assets/header.svg" width="100%" alt="Editor Pro" />
 
-## Stack
-
-react Â· vite Â· typescript Â· tailwindcss Â· node
+Rich text editing workspace for fast drafts.
 
 ## Run locally
 
@@ -13,4 +11,4 @@ react Â· vite Â· typescript Â· tailwindcss Â· node
 
 ## License
 
-Private / all rights reserved.
+All rights reserved.
